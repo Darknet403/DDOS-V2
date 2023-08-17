@@ -22,6 +22,7 @@ These tools are used as test tools for websites
  pip install --upgrade pip
  git clone https://github.com/Darknet403/DDOS-V2
  cd DDOS-V2
+ pip install -r requirements.txt
  python3 setup.py
  python3 main.py
  ```
