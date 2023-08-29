@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Made By Mr. E-Cyber
 from os import system, name
 import getpass
 import os, threading, requests, sys, cloudscraper, datetime, time, socket, socks, ssl, random, httpx
