@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from os import system, name
+import getpass
 import os, threading, requests, sys, cloudscraper, datetime, time, socket, socks, ssl, random, httpx
 from urllib.parse import urlparse
 from requests.cookies import RequestsCookieJar
@@ -938,8 +939,8 @@ def tools():
     stdout.write("\n")
 ##############################################################################################
 def login():
-    user = "cyber"
-    passwd = "team23"
+    user = "root"
+    passwd = "coba"
     username = input("""
 
 
