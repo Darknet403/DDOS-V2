@@ -1,5 +1,5 @@
 <h1 align="center"> 🛰EXECUTOR DDOS-V2📡 </h2>
-<p align="center">This Tools Using BotNet <br>
+<p align="center">This Tools Using BotNet AND Only Root Access <br>
 Dont Use Ilegal Activity with this Tools, dont attack Government and Education <br>
 We are not responsible for the misuse of these tools <br>
 These tools are used as test tools for websites
@@ -15,10 +15,10 @@ These tools are used as test tools for websites
  <summary><strong> Installation and Run </strong></summary>
 
  ```bash 
- pkg update && pkg upgrade
+ apt update && apt upgrade
  apt-get update && apt-get upgrade
- pkg install python && pkg install python2 && pkg install python3
- pkg install git
+ apt install python-pip && pkg install python3
+ apt install git
  pip install --upgrade pip
  git clone https://github.com/teamcyber-glitch/DDOS-V2
  cd DDOS-V2
@@ -35,7 +35,7 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 update4.py
+ python3 upgrade1.py
  python3 main.py
  ```
  
