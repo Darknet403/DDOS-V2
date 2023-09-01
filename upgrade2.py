@@ -20,6 +20,7 @@ if c == "1":
     os.system("rm -rf proxy.txt")
     time.sleep(0.8)
     os.system("cd resources && mv proxy.txt /root/DDOS-V2")
+    os.system("cd resources && mv proxy.txt /home/kali/DDOS-V2")
     print("\033[1;93mSUCCESFULLY TO UPDATE YOUR TOOLS")
     time.sleep(2)
     os.system("rm -rf upgrade2.py")
