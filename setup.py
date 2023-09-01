@@ -22,6 +22,7 @@ if c == "0":
     os.system("pip install undetected_chromedriver")
     os.system("pip install httpx")
     os.system("cd resources && mv proxy.txt /root/DDOS-V2")
+    os.system("cd resources && mv proxy.txt /home/kali/DDOS-V2")
 
 elif c == "1":
     os.system("rm -rf upgrade2.py")
@@ -34,6 +35,7 @@ elif c == "1":
     os.system("pip3 install undetected_chromedriver")
     os.system("pip3 install httpx")
     os.system("cd resources && mv proxy.txt /root/DDOS-V2")
+    os.system("cd resources && mv proxy.txt /home/kali/DDOS-V2")
 if os.name == "nt":
     pass
 else:
