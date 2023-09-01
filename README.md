@@ -20,7 +20,7 @@ These tools are used as test tools for websites
  apt install python-pip && pkg install python3
  apt install git
  pip install --upgrade pip
- git clone https://github.com/teamcyber-glitch/DDOS-V2
+ git clone https://github.com/Darknet403/DDOS-V2
  cd DDOS-V2
  python3 setup.py
  python3 main.py
