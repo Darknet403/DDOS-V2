@@ -54,6 +54,8 @@ These tools are used as test tools for websites
  apt-get install ./google-chrome-stable_current_amd64.deb
  ulimit -n 999999
  chmod 777 *
+ cd
+ cd DDOS-V2
  python3 main.py
  ```
  
