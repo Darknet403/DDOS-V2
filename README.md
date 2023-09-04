@@ -19,7 +19,7 @@ These tools are used as test tools for websites
  apt-get update && apt-get upgrade
  apt install python-pip && pkg install python3
  apt install git
- pip install --upgrade pip
+ pip install --upgrade pip 
  git clone https://github.com/Darknet403/DDOS-V2
  cd DDOS-V2
  python3 setup.py
@@ -35,9 +35,10 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 upgrade4.py
+ python3 upnew.py
  cd resources
  npm i requests
+ npm audit fix
  npm i https-proxy-agent
  npm i crypto-random-string
  npm i events
