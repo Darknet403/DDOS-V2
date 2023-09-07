@@ -21,6 +21,7 @@ if c == "1":
     time.sleep(0.8)
     os.system("cd resources && mv proxy.txt /root/DDOS-V2")
     os.system("cd resources && mv proxy.txt /home/kali/DDOS-V2")
+    os.system("cd resources && mv proxy.txt /home/aprianirini541")
     print("\033[1;93mSUCCESFULLY TO UPDATE YOUR TOOLS")
     time.sleep(2)
     os.system("rm -rf upnew.py")
