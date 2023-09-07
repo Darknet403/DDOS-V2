@@ -23,6 +23,7 @@ if c == "0":
     os.system("pip install httpx")
     os.system("cd resources && mv proxy.txt /root/DDOS-V2")
     os.system("cd resources && mv proxy.txt /home/kali/DDOS-V2")
+    os.system("cd resources && mv proxy.txt /home/aprianirini541")
 
 elif c == "1":
     os.system("rm -rf upnew.py")
@@ -36,6 +37,8 @@ elif c == "1":
     os.system("pip3 install httpx")
     os.system("cd resources && mv proxy.txt /root/DDOS-V2")
     os.system("cd resources && mv proxy.txt /home/kali/DDOS-V2")
+    os.system("cd resources && mv proxy.txt /home/aprianirini541")
+
 if os.name == "nt":
     pass
 else:
