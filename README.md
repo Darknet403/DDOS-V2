@@ -17,25 +17,31 @@ These tools are used as test tools for websites
  ```bash 
  apt update && apt upgrade
  apt-get update && apt-get upgrade
- apt install python-pip && pkg install python3
+ apt install python-pip && apt install python3
  apt install git
+ apt-get install golang
+ pip install golang
+ apt-get install npm
+ pip install npm
  pip install --upgrade pip 
  git clone https://github.com/Darknet403/DDOS-V2
  cd DDOS-V2
  python3 setup.py
- python3 main.py
+ pip install -r requirements.txt
+ cd resources
  ```
  
  </details>
 <details open>
- <summary><strong> HOW TO UPDATE </strong></summary>
+ <summary><strong> ONLY AFTER INSTALL </strong></summary>
  This Tools is Premium Attack, I will Help about Updated Information <br>
  Now support me for contribute about DDOS ATTACK
 
  ```bash
  cd DDOS-V2
  git pull
- python3 upgrade1.py
+ python3 updatenew.py
+ pip install -r requirements.txt
  cd resources
  npm i requests
  npm i https-proxy-agent
