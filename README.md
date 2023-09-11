@@ -40,7 +40,7 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 updatenew.py
+ python3 super.py
  pip install -r requirements.txt
  cd resources
  npm i requests
