@@ -17,12 +17,14 @@ These tools are used as test tools for websites
  ```bash 
  apt update && apt upgrade
  apt-get update && apt-get upgrade
- apt install python-pip && apt install python3
- apt install git
- apt-get install golang
- pip install golang
- apt-get install npm
- pip install npm
+ sudo apt-get install git -y
+ sudo apt-get install golang -y
+ sudo apt-get install perl -y
+ sudo apt-get install python3 -y
+ sudo apt-get install python2 -y
+ sudo apt-get install python3-pip -y
+ sudo apt-get install nodejs -y
+ sudo apt-get install npm -y
  pip install --upgrade pip 
  git clone https://github.com/Darknet403/DDOS-V2
  cd DDOS-V2
@@ -40,7 +42,7 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 finish.py
+ python3 special.py
  pip install -r requirements.txt
  cd resources
  npm i requests
