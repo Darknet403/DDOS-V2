@@ -21,7 +21,8 @@ These tools are used as test tools for websites
  sudo apt-get install golang -y
  sudo apt-get install perl -y
  sudo apt-get install python3 -y
- sudo apt-get install python2 -y
+ sudo apt-get install python -y
+ sudo apt-get install python-pip -y
  sudo apt-get install python3-pip -y
  sudo apt-get install nodejs -y
  sudo apt-get install npm -y
@@ -42,9 +43,10 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 newpower.py
+ python3 upv1.py
  pip install -r requirements.txt
  cd resources
+
  npm i requests
  npm i https-proxy-agent
  npm i crypto-random-string
@@ -63,6 +65,7 @@ These tools are used as test tools for websites
  apt-get install ./google-chrome-stable_current_amd64.deb
  ulimit -n 999999
  chmod 777 *
+
  cd
  cd DDOS-V2
  python3 main.py
