@@ -32,11 +32,17 @@ These tools are used as test tools for websites
  python3 setup.py
  pip install -r requirements.txt
  cd resources
+ bash install.sh
+ ulimit -n 999999
+ chmod 777 *
+ cd
+ cd DDOS-V2
+ python3 main.py
  ```
  
  </details>
 <details open>
- <summary><strong> ONLY AFTER INSTALL </strong></summary>
+ <summary><strong> ONLY MEMBER AFTER GET TOOLS </strong></summary>
  This Tools is Premium Attack, I will Help about Updated Information <br>
  Now support me for contribute about DDOS ATTACK
 
