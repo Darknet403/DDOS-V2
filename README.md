@@ -17,24 +17,29 @@ These tools are used as test tools for websites
  ```bash 
  apt update && apt upgrade
  apt-get update && apt-get upgrade
- sudo apt-get install git -y
- sudo apt-get install golang -y
- sudo apt-get install perl -y
- sudo apt-get install python3 -y
- sudo apt-get install python -y
- sudo apt-get install python-pip -y
- sudo apt-get install python3-pip -y
- sudo apt-get install nodejs -y
- sudo apt-get install npm -y
- pip install --upgrade pip 
+ sudo apt-get install git
+ sudo apt-get install wget
+ sudo apt-get install nodejs
+ sudo apt-get install npm
+ sudo apt-get install golang
+ sudo apt-get install perl
+ sudo apt-get install python3
+ sudo apt-get install python
+ sudo apt-get install python-pip
+ sudo apt-get install python3-pip
+ pip install --upgrade pip
+
  git clone https://github.com/Darknet403/DDOS-V2
  cd DDOS-V2
  python3 setup.py
+
  pip install -r requirements.txt
  cd resources
  bash install.sh
+
  ulimit -n 999999
  chmod 777 *
+
  cd
  cd DDOS-V2
  python3 main.py
@@ -50,9 +55,11 @@ These tools are used as test tools for websites
  cd DDOS-V2
  git pull
  python3 upv9.py
+
  pip install -r requirements.txt
  cd resources
  bash install.sh
+
  ulimit -n 999999
  chmod 777 *
 
