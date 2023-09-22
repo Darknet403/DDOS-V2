@@ -37,9 +37,6 @@ These tools are used as test tools for websites
  cd resources
  bash install.sh
 
- ulimit -n 999999
- chmod 777 *
-
  cd
  cd DDOS-V2
  python3 main.py
@@ -54,7 +51,7 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 upv15.py
+ python3 upv16.py
 
  pip install -r requirements.txt
  cd resources
