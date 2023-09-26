@@ -51,7 +51,7 @@ These tools are used as test tools for websites
  ```bash
  cd DDOS-V2
  git pull
- python3 upv17.py
+ python3 upv18.py
 
  pip install -r requirements.txt
  cd resources
