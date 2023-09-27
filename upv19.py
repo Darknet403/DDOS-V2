@@ -29,10 +29,9 @@ if c == "1":
     time.sleep(0.8)
     print("\033[1;93mSUCCESFULLY TO UPDATE YOUR TOOLS")
     time.sleep(2)
-    os.system("rm -rf upv19py")
     os.system("pip3 install -r requirements.txt")
     os.system("cd resources && bash install.sh")
-    os.system("python3 main.py")
+    os.system("rm -rf upv19py")
 
 elif c == "2":
     os.system("exit")
